@@ -1,0 +1,41 @@
+:root {
+  --bg-dark: #191c31;
+  --text: #fafafa;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.6rem;
+  color: var(--text);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  background: var(--bg-dark);
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+a,
+button {
+  cursor: pointer;
+  background: transparent;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 121.6rem;
+}
